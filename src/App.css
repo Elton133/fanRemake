@@ -3,17 +3,20 @@ body{
   background-color: #f5d9df;
   font-family: "Poetsen One", sans-serif;    
   color: #EA1C2C;
+  overflow-x: hidden;
+  padding: 0 10px 10px 10px;
 }
 
 #mainnavbar{
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 100;
 }
 
 #mainnavbar .navbar-brand{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: red;
   font-weight: 100;
+  padding-left: 20px;
 } 
 
 #mainnavbar .nav-link{
@@ -29,17 +32,25 @@ body{
 #heading h1{
   font-weight: 100;
   color: red;
-  font-size:5rem;
+  font-size:2.8em;
 }
 #heading h2{
   color: red;
+  font-size: 1.3em;
 }
 
-@media(max-width: 1000px){
+@media(width <= 768px){
   #heading h1{
       font-weight: 100;
-      font-size:2rem;
+      font-size:1.8rem;
   }
+*{
+  background-color: #f5d9df ;
+}
+#firstCover{
+  margin-top: 10px;
+}
+
 }
 
 .navbar.scrolled {
@@ -51,13 +62,13 @@ section:nth-of-type(2), section:nth-of-type(3), section:nth-of-type(4),section:n
   h2{
       color: red;
       font-weight: 100;
-      font-size: 2.5rem;
+      font-size: 2rem;
   }
   p{
       color: red;
       font-weight: 100;
-      font-size: 1.5rem;
-      line-height: 2;
+      font-size: 1.2rem;
+      line-height: 1.5;
   }
 }
 .content{
@@ -68,6 +79,26 @@ section:nth-of-type(2), section:nth-of-type(3), section:nth-of-type(4),section:n
   height: 50px;
   
 }
+
+ #anImage{
+             border-radius:  0 30px 0 30px;
+             background: #e0e0e0;
+             box-shadow:  17px -17px 34px #5a5a5a,
+             -17px 17px 34px #ffffff;
+ }
+ #anImage1{
+             border-radius:  0 30px 0 30px;
+             background: #e0e0e0;
+             box-shadow:  17px -17px 34px #5a5a5a,
+             -17px 17px 34px #ffffff;
+ }
+ #logoImage{
+  border-radius:  0 30px 0 30px;
+background: linear-gradient(45deg, #cacaca, #f0f0f0);
+box-shadow:  17px -17px 60px #5a5a5a,
+             -17px 17px 60px #ffffff;
+ }
+
 
 /* .lead{
   padding-top: 10px;

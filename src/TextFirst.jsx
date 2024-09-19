@@ -20,7 +20,7 @@ export default function TextFirst({title, iceCreamImage, paragraph,productImage}
       </div>
       <div className="col-md-6">
         <div>
-          <img className="img-fluid" src={productImage} alt="punchie" />
+          <img id="anImage1" className="img-fluid" src={productImage} alt="punchie" />
         </div>
       </div>
     </div>

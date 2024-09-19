@@ -1,4 +1,4 @@
-
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 export default function Navbar(){
     return(
         <>
@@ -13,7 +13,8 @@ export default function Navbar(){
       <a href="index.html" className="nav-link">HOME</a>
     </li>
     <li className="nav-item">
-      <a href="#" className="nav-link">ABOUT US</a>
+      {/* <a href="#" className="nav-link">ABOUT US</a> */}
+      <Link to="/About" className="nav-link">ABOUT US</Link>
     </li>
      <li className="nav-item">
       <a href="#" className="nav-link">CONTACT</a>

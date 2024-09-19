@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css'
 import { nav } from "./helper"
 import Navbar from './Navbar';
@@ -15,10 +15,16 @@ import pPunchie from "./images/ppunchiepeach.jpg";
 import coco from "./images/coco.jpg";
 import mango3 from "./images/mango3.jpg";
 
+
 function App() {
   return (
     <>
+    <Router>
     <Navbar/>
+    <Routes>
+    {/* <Route path="/About" element={<About />} /> */}
+    </Routes>
+    </Router>
     <FirstCover/>
     <ImageFirst
     title={"The Original Strawberry"}
@@ -68,6 +74,7 @@ function App() {
     iceCreamImage={iceCream}
     paragraph={"Experience the new Cocopine: a delightful fusion of creamy coconut and tangy pineapple. This refreshing and exotic treat is perfect for cooling down and enjoying a taste of the tropics on any sunny day."}
     productImage={coco}/> */}
+    
     </>
   )
 }
