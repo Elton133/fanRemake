@@ -1,20 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css'
+import { nav } from "./helper"
 import Navbar from './Navbar';
 import FirstCover from './FirstCover';
 import TextFirst from './TextFirst';
 import ImageFirst from './ImageFirst';
-import iceCream from "./images/ice-cream.png"
-import strawberry from "./images/strawberry.jpg"
-import punchie1 from "./images/punchie1.jpg"
-import fanArt from "./images/fanart.jpg"
-import banana2 from "./images/banana2.jpg"
-import pPunchie from "./images/ppunchie.jpg"
+import iceCream from "./images/ice-cream.png";
+import strawberry from "./images/strawberry.jpg";
+import punchie1 from "./images/punchie1.jpg";
+import fanArt from "./images/fanart.jpg";
+import banana2 from "./images/banana2.jpg";
+import pPunchie from "./images/ppunchiepeach.jpg";
+import coco from "./images/coco.jpg";
+import mango3 from "./images/mango3.jpg";
 
 function App() {
- 
-
   return (
     <>
     <Navbar/>
@@ -50,6 +51,23 @@ function App() {
     iceCreamImage={iceCream}
     productImage={pPunchie}
     />
+    <TextFirst 
+    title={"Cocopine"}
+    iceCreamImage={iceCream}
+    paragraph={"Experience the new Cocopine: a delightful fusion of creamy coconut and tangy pineapple. This refreshing and exotic treat is perfect for cooling down and enjoying a taste of the tropics on any sunny day."}
+    productImage={coco}/>
+
+<ImageFirst
+    title={"Mango and Passion Fruit"}
+    paragraph={"Introducing the new mango and passion fruit: a tropical blend of sweet mango and tangy passion fruit. Refreshingly exotic, it's perfect for sunny days."}
+    iceCreamImage={iceCream}
+    productImage={mango3}
+    />
+    {/* <TextFirst 
+    title={"Cocopine"}
+    iceCreamImage={iceCream}
+    paragraph={"Experience the new Cocopine: a delightful fusion of creamy coconut and tangy pineapple. This refreshing and exotic treat is perfect for cooling down and enjoying a taste of the tropics on any sunny day."}
+    productImage={coco}/> */}
     </>
   )
 }
