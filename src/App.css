@@ -55,18 +55,18 @@ body{
  }
  #anImage{
   border-radius:  0 30px 0 30px;
-  background:none;
-  box-shadow: none;
+  background:none !important;
+  box-shadow: none !important;
 }
 #anImage1{
   border-radius:  0 30px 0 30px;
-  background:none;
-  box-shadow:  none;
+  background:none !important;
+  box-shadow:  none !important;
 }
 #logoImage{
 border-radius:  0 30px 0 30px;
-background: none;
-box-shadow:  none;
+background:  none !important;
+box-shadow:   none !important;
 }
 }
 
@@ -116,17 +116,18 @@ box-shadow:  17px -17px 60px #5a5a5a,
              -17px 17px 60px #ffffff;
  }
 
-
-/* .lead{
-  padding-top: 10px;
+@media(width >= 1800px){
+  #logoImage{
+   width: 100%;
+   height: 80vh;
+   }
+   /* #anImage{
+    width: 100%;
+    height: 90dvh;
+   
+}
+#anImage1{
+  height: 90vh;
+  width: 100%;
 } */
-
-/* section:nth-of-type(1){
-  background: linear-gradient()
 }
-section:nth-of-type(2){
-  background-color: peachpuff;
-}
-section:nth-of-type(3){
-  background-color: rgb(241, 170, 16);
-}  */
