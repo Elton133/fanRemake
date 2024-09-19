@@ -40,17 +40,18 @@ body{
 }
 
 @media(width <= 768px){
+  
   #heading h1{
       font-weight: 100;
       font-size:1.8rem;
   }
 *{
+  overflow-x: hidden;
   background-color: #f5d9df ;
 }
-#firstCover{
-  margin-top: 10px;
-}
-
+#logoImage{
+ width: 100%;
+ }
 }
 
 .navbar.scrolled {
