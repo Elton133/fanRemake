@@ -56,17 +56,17 @@ body{
  #anImage{
   border-radius:  0 30px 0 30px;
   background:none;
-  box-shadow: none;
+  box-shadow: 0;
 }
 #anImage1{
   border-radius:  0 30px 0 30px;
   background:none;
-  box-shadow:  none;
+  box-shadow:  0;
 }
 #logoImage{
 border-radius:  0 30px 0 30px;
 background: none;
-box-shadow:  none;
+box-shadow:  0;
 }
 }
 
