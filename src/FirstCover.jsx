@@ -15,7 +15,7 @@ export default function FirstCover(){
         </div>
       </div>
       <div className="col-lg-6">
-        <video id="logoImage"height="600" width="600" autoPlay loop muted>
+        <video id="logoImage"height="600" width="600" autoPlay loop muted playsInline>
             <source src={videoFile} type="video/mp4" />
         </video>
       </div>
