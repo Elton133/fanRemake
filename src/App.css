@@ -1,0 +1,84 @@
+
+body{
+  background-color: #f5d9df;
+  font-family: "Poetsen One", sans-serif;    
+  color: #EA1C2C;
+}
+
+#mainnavbar{
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainnavbar .navbar-brand{
+  font-size: 1.5rem;
+  color: red;
+  font-weight: 100;
+} 
+
+#mainnavbar .nav-link{
+  color: white;
+}
+
+#mainnavbar .nav-link:hover{
+  color: #EA1C2C;
+}
+.red{
+  color: red;
+}
+#heading h1{
+  font-weight: 100;
+  color: red;
+  font-size:5rem;
+}
+#heading h2{
+  color: red;
+}
+
+@media(max-width: 1000px){
+  #heading h1{
+      font-weight: 100;
+      font-size:2rem;
+  }
+}
+
+.navbar.scrolled {
+  background: rgb(222,192,222);
+  transition: background 500ms;
+}
+
+section:nth-of-type(2), section:nth-of-type(3), section:nth-of-type(4),section:nth-of-type(5),section:nth-of-type(6),section:nth-of-type(7),section:nth-of-type(8){
+  h2{
+      color: red;
+      font-weight: 100;
+      font-size: 2.5rem;
+  }
+  p{
+      color: red;
+      font-weight: 100;
+      font-size: 1.5rem;
+      line-height: 2;
+  }
+}
+.content{
+  margin-top: 0;
+}
+#icon{
+  width: 50px;
+  height: 50px;
+  
+}
+
+/* .lead{
+  padding-top: 10px;
+} */
+
+/* section:nth-of-type(1){
+  background: linear-gradient()
+}
+section:nth-of-type(2){
+  background-color: peachpuff;
+}
+section:nth-of-type(3){
+  background-color: rgb(241, 170, 16);
+}  */
