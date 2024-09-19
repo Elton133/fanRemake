@@ -100,13 +100,13 @@ section:nth-of-type(2), section:nth-of-type(3), section:nth-of-type(4),section:n
  #anImage{
              border-radius:  0 30px 0 30px;
              background: #e0e0e0;
-             box-shadow:  17px -17px 34px #5a5a5a,
-             -17px 17px 34px #ffffff;
+             box-shadow:  10px -10px 20px #5a5a5a,
+             -10px 10px 20px #ffffff;
  }
  #anImage1{
              border-radius:  0 30px 0 30px;
              background: #e0e0e0;
-             box-shadow:  17px -17px 34px #5a5a5a,
+             box-shadow:  1px -10px 20px #5a5a5a,
              -17px 17px 34px #ffffff;
  }
  #logoImage{
