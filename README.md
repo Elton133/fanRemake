@@ -4,6 +4,8 @@
 
 The **Fanyogo Website** is a promotional site designed to showcase Fanyogo's products. It includes a video banner, product descriptions, and a responsive design using **Bootstrap**.
 
+You can see a live demo of the FanYogo site [here](https://fanyogo1.netlify.app).
+
 ## Features
 
 - **Video Banner**: A looping promotional video.
