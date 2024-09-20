@@ -1,8 +1,37 @@
-# React + Vite
+# Fanyogo Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The **Fanyogo Website** is a promotional site designed to showcase Fanyogo's products. It includes a video banner, product descriptions, and a responsive design using **Bootstrap**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Video Banner**: A looping promotional video.
+- **Product Showcase**: Displays a selection of Fanyogo products with descriptions.
+- **Responsive Design**: Uses **Bootstrap** to ensure the site is optimized for all screen sizes.
+
+## Tech Stack
+
+- **React**: For building the website’s interface.
+- **Bootstrap**: For responsive design and consistent styling.
+- **Custom CSS**: Additional styling for video and product sections.
+
+## Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/your-repository/fanyogo-website.git
+
+   ```
+
+2. **Install Dependencies**
+   npm install
+
+3. **Install Bootstrap**
+   npm install bootstrap
+   **_Import Bootstrap in index.js or App.jsx:_**
+   import 'bootstrap/dist/css/bootstrap.min.css';
+
+4. **Run the project**
+   npm start
