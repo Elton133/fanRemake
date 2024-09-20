@@ -26,12 +26,25 @@ The **Fanyogo Website** is a promotional site designed to showcase Fanyogo's pro
    ```
 
 2. **Install Dependencies**
+
+```bash
    npm install
+```
 
 3. **Install Bootstrap**
+
+```bash
    npm install bootstrap
-   **_Import Bootstrap in index.js or App.jsx:_**
-   import 'bootstrap/dist/css/bootstrap.min.css';
+```
+
+**_Import Bootstrap in index.js or App.jsx:_**
+
+```bash
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
 
 4. **Run the project**
+
+```bash
    npm start
+```
