@@ -10,9 +10,6 @@ export default function TextFirst({title, iceCreamImage, paragraph,productImage}
             <h2 className="text-center pt-5">{title}</h2>
             <img id="icon" className="img-fluid text-center my-3" src={iceCreamImage} alt="ice-cream" />
             <p className="lead">
-              {/* The all-new Punchie Peach delivers a smooth and vibrant peach
-              flavor. Cool down with this creamy, fruity delight and savor a
-              taste of summer. */}
               {paragraph}
             </p>
           </div>

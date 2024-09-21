@@ -6,7 +6,7 @@ export default function ImageFirst({title, paragraph, iceCreamImage, productImag
     <div className="row align-items-center content">
       <div className="col-md-6 order-2 order-md-1">
         <div>
-          <img id="anImage"className="img-fluid" src={productImage} alt="fanyogo" />
+          <img id="anImage" className="img-fluid" src={productImage} alt="fanyogo" />
         </div>
       </div>
       <div className="col-md-6 text-center order-1 order-md-2">
